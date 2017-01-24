@@ -1,0 +1,64 @@
+h1 {
+  color: red;
+  font-family: Helvetica Neue, sans-serif;
+  font-style: italic;
+}
+
+p {
+  color: teal;
+  font-family: 'Overpass', sans-serif;
+  font-size: 28px;
+  font-weight:lighter;
+  line-height: 1.15;
+}
+
+.cat {
+/*
+  background: lavender;
+  background-image: url(../images/KSGHCUs.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  background-position: center;
+*/
+  background: lavender url(../images/KSGHCUs.gif) center top no-repeat;
+  background-size: cover;
+}
+
+.plebian {
+  background: lightgrey url(../images/cabinporn01.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.plebian p {
+  color: black;
+}
+
+.footer p {
+  color: tomato;
+  font-family: Inconsolata, monospace;
+  font-size: 12px;
+}
+
+ul li {
+  color: orange;
+  font-family: Inconsolata, monospace;
+  font-size: 24px;
+  font-weight:500;
+  text-decoration: underline;
+}
+
+ul li a {
+  color: darkblue;
+}
+
+a:hover {
+  color: hotpink;
+  font-size: 48px;
+  background: yellow;
+  text-decoration: line-through;
+}
+
+a:active {
+  color: green;
+}
